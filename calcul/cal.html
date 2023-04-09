@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="cal.css">
+</head>
+<body>
+    <div id="calculator">
+        <input type="text" id="output" disabled>
+            <br>     
+            <button class="btn del op" onclick="del()">DE</button> 
+            <button class="btn  op" onclick="reset()">C</button>  
+            <button class="btn  op" onclick="calc('/')">/</button>
+            <br>
+            <button class="btn" onclick="calc('7')">7</button>
+            <button class="btn" onclick="calc('8')">8</button>
+            <button class="btn" onclick="calc('9')">9</button>
+            <button class="btn  op" onclick="calc('*')">*</button>
+            <br>
+            <button class="btn" onclick="calc('4')">4</button>
+            <button class="btn" onclick="calc('5')">5</button>
+            <button class="btn" onclick="calc('6')">6</button>
+            <button class="btn  op" onclick="calc('-')">-</button>
+            <br>
+            <button class="btn" onclick="calc('1')">1</button>
+            <button class="btn" onclick="calc('2')">2</button>
+            <button class="btn" onclick="calc('3')">3</button>
+            <button class="btn  op" onclick="calc('+')">+</button>
+            <br>
+            <button class="btn" onclick="calc('0')">0</button>
+            <button class="btn  op" onclick="calc('.')">.</button>
+            <button class="btn equ  op" onclick="res()">=</button>
+    </div>
+    <script src="cal.js"></script>
+</body>
+</html>
